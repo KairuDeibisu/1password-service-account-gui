@@ -42,7 +42,7 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE2REU2ODI1M0U0RTkwNzAKUldSd2tFNCtKV2plRnR1YVBaQlBHcmhvd0p5TkhBY1ZZK0xnWFpldytXYm5BdnZQVFluWlU3YSsK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQ3MTcwRTVGQ0MzOTg0Q0QKUldUTmhEbk1YdzRYUjZSVkZpYlU5Y0F1NVVxTWhha2FZbEtJK01wdURENTdwclVWMitGbnVPaGgK",
       "endpoints": [
         "https://github.com/KairuDeibisu/1password-service-account-gui/releases/latest/download/latest.json"
       ],
