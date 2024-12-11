@@ -44,7 +44,7 @@
     "updater": {
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE2REU2ODI1M0U0RTkwNzAKUldSd2tFNCtKV2plRnR1YVBaQlBHcmhvd0p5TkhBY1ZZK0xnWFpldytXYm5BdnZQVFluWlU3YSsK",
       "endpoints": [
-        "https://api.github.com/repos/KairuDeibisu/1password-service-account-gui/releases"
+        "https://github.com/KairuDeibisu/1password-service-account-gui/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "basicUi"
