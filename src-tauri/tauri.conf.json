@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "1password-service-account-gui",
+  "version": "0.0.1",
+  "identifier": "com.1password-service-account-gui.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "1password-service-account-gui",
+        "width": 800,
+        "height": 600,
+        "browserExtensionsEnabled": false,
+        "contentProtected": true,
+        "dragDropEnabled": false,
+        "focus": true,
+        "zoomHotkeysEnabled": false,
+        "incognito": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; connect-src 'self';",
+      "devCsp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "createUpdaterArtifacts": true
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE2REU2ODI1M0U0RTkwNzAKUldSd2tFNCtKV2plRnR1YVBaQlBHcmhvd0p5TkhBY1ZZK0xnWFpldytXYm5BdnZQVFluWlU3YSsK",
+      "endpoints": [
+        "https://api.github.com/repos/KairuDeibisu/1password-service-account-gui/releases"
+      ],
+      "windows": {
+        "installMode": "basicUi"
+      }
+    }
+  }
+}
